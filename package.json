@@ -1,0 +1,31 @@
+{
+  "name": "03-api-solid",
+  "version": "1.0.0",
+  "description": "Gympass style app.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valmirvirtuoso/03-api-solid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valmirvirtuoso/03-api-solid/issues"
+  },
+  "homepage": "https://github.com/valmirvirtuoso/03-api-solid#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "fastify": "^4.26.2"
+  }
+}
