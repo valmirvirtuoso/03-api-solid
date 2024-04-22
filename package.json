@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/valmirvirtuoso/03-api-solid#readme",
   "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "20.12.7",
     "tsup": "^8.0.2",
     "tsx": "^4.7.2",
