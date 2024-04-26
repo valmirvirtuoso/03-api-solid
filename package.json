@@ -21,6 +21,7 @@
   "homepage": "https://github.com/valmirvirtuoso/03-api-solid#readme",
   "devDependencies": {
     "@rocketseat/eslint-config": "2.2.2",
+    "@types/bcryptjs": "2.4.6",
     "@types/node": "20.12.7",
     "prisma": "5.12.1",
     "tsup": "^8.0.2",
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "@prisma/client": "5.12.1",
+    "bcryptjs": "2.4.3",
     "dotenv": "16.4.5",
     "fastify": "4.26.2",
     "zod": "3.23.0"
